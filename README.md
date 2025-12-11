@@ -43,7 +43,7 @@ SOURCE D:/PostFiles/mini_ats/sql/seed.sql;
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple cryptography
 ```
-y
+
 ## ⚙核心功能
 - 视图：看板/统计（v_app_dashboard、v_company_stats、v_funnel_user）
 - 触发器：状态历史审计（application_status_history）
