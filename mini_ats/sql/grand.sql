@@ -1,0 +1,7 @@
+CREATE USER IF NOT EXISTS 'ats_admin'@'%' IDENTIFIED BY 'StrongPwd_123!';
+CREATE USER IF NOT EXISTS 'ats_app'@'%' IDENTIFIED BY 'AppPwd_123!';
+
+GRANT ALL PRIVILEGES ON mini_ats.* TO 'ats_admin'@'%';
+GRANT SELECT, INSERT, UPDATE, DELETE, EXECUTE ON mini_ats.* TO 'ats_app'@'%';
+
+FLUSH PRIVILEGES;
